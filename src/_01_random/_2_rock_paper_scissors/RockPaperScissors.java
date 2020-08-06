@@ -16,7 +16,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
 public class RockPaperScissors extends JPanel implements ActionListener{
-  
+  int randy;
 	private JFrame window = new JFrame("Rock Paper Scissors");
 	private JButton rockButton = new JButton();
 	private JButton paperButton = new JButton();
@@ -80,7 +80,7 @@ public class RockPaperScissors extends JPanel implements ActionListener{
         //   Don't forget to create a Random object.
 	    
         //2. Change the value of opponentSelection to be a random number between 0 and 2; 
-        int opponentSelection = 0;
+        int opponentSelection = randy.nextInt();
         
         //3. Run the program again. Is the result different?
  
