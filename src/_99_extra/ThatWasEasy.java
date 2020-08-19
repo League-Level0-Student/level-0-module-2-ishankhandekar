@@ -15,7 +15,7 @@ import javax.swing.JLabel;
 public class ThatWasEasy extends MouseAdapter {
 
 	public void mouseClicked(MouseEvent arg0) {
-		/* Use the speak method to make the button work. */
+		speak("hi");/* Use the speak method to make the button work. */
 		
 	}
 
